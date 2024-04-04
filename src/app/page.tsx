@@ -73,35 +73,35 @@ const content = [
     </div>
     <div>
     <div class='font-semibold'>Javascript</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 70%"></div>
     <div class="mt-2">70</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>Kotlin</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 60%"></div>
     <div class="mt-2">60</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>Java</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 50%"></div>
     <div class="mt-2">50</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>Python</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 50%"></div>
     <div class="mt-2">50</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>C#</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 35%"></div>
     <div class="mt-2">35</div>
   </div>
@@ -114,21 +114,21 @@ const content = [
     </div>
     <div>
     <div class='font-semibold'>HTML & CSS</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 80%"></div>
     <div class="mt-2">80</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>Angular</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 60%"></div>
     <div class="mt-2">60</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>React & Nextjs</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 50%"></div>
     <div class="mt-2">50</div>
   </div>
@@ -142,21 +142,21 @@ const content = [
     </div>
     <div>
     <div class='font-semibold'>SpringBoot</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class=" w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 50%"></div>
     <div class="mt-2">50</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>Laravel</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 40%"></div>
     <div class="mt-2">40</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>.Net 6</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 35%"></div>
     <div class="mt-2">35</div>
   </div>
@@ -164,18 +164,47 @@ const content = [
     </div>
     <div>
     <div class="mb-4">
+    Databases
+    </div>
+    <div>
+    <div class='font-semibold'>MongoDb</div>
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="bg-blue-600 h-2.5 rounded-full " style="width: 60%"></div>
+    <div class="mt-2">60</div>
+  </div>
+    </div>
+    <div>
+    <div class='font-semibold'>Mysql && Postgres</div>
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="bg-blue-600 h-2.5 rounded-full " style="width: 50%"></div>
+    <div class="mt-2">50</div>
+  </div>
+    </div>
+    
+    <div>
+    <div class='font-semibold'>Sql Server</div>
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="bg-blue-600 h-2.5 rounded-full " style="width: 35%"></div>
+    <div class="mt-2">35</div>
+  </div>
+    </div>
+    
+    </div>
+
+    <div>
+    <div class="mb-4">
     Otros
     </div>
     <div>
     <div class='font-semibold'>Git</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 40%"></div>
     <div class="mt-2">40</div>
   </div>
     </div>
     <div>
     <div class='font-semibold'>Excel</div>
-    <div class="w-[200px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
+    <div class="w-[300px] xl:w-[150px] md:w-[100px] bg-gray-200 rounded-full mb-3 h-2.5 dark:bg-gray-700 flex">
     <div class="bg-blue-600 h-2.5 rounded-full " style="width: 50%"></div>
     <div class="mt-2">50</div>
   </div>
@@ -212,7 +241,7 @@ const content = [
   const projects = await getProyects() 
   
   return (
-    <main className="container mx-auto flex min-h-screen flex-col">
+    <main className="xl:container mx-auto flex min-h-screen flex-col">
       <ToggleThemeBtn/>
       <div className="md:flex  ">
       <div className="">
