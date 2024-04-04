@@ -38,7 +38,7 @@ function ProjectImage({ image, projectId, loading }: { image: ProjectImageData[]
             {projectId != "" &&
             <div className=" ">
                 {image.map((img, i) => (
-                  <div className="flex flex-col justify-center text-center">
+                  <div key={i} className="flex flex-col justify-center text-center">
                     <Image
                       src={ img.image}
                       height={0}
