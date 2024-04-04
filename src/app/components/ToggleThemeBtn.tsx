@@ -15,7 +15,7 @@ export default function ThemeSwitch() {
   }
 
   useEffect(() =>  setMounted(true), [])
-  console.log(resolvedTheme)
+ 
   return (
     <div className='flex justify-end p-10 w-full'>
       <label className="inline-flex items-center cursor-pointer">

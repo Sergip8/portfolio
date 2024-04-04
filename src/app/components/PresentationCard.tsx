@@ -5,9 +5,9 @@ function PresentationCard() {
    
         <div
   className="flex flex-col md:w-full md:flex-row ">
-  <div className=' text-[12px] h-fit bg-slate-50 p-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700'>
+  <div className=' text-[12px] h-full bg-slate-50 p-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700'>
   <img
-    className="md:max-w-[150px] md:w-auto max-w-full w-full object-cover md:h-auto md:!rounded-none "
+    className="md:max-w-[200px] md:w-auto max-w-full w-full object-cover md:h-auto md:!rounded-none "
     src="/foto-edit.png"
     alt="" />
     <div className='text-center'>
