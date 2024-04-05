@@ -22,14 +22,14 @@ function ProjectImage({ image, projectId, loading }: { image: ProjectImageData[]
   return (
     <div className="">
         {loading &&
-        <div className="bg-transparent h-auto w-[300px] flex flex-col justify-center ">
+        <div className="bg-transparent h-auto w-[300px] flex justify-center align-middle">
               <Image
                       src="/loading.gif"
-                      height={0}
-                      width={0}
+                      height={50}
+                      width={50}
                       alt=""
                       //sizes="20vw"
-                      className="w-12 h-12 rounded-lg "
+                      className="rounded-lg "
                     />
         </div>
         }
@@ -38,7 +38,7 @@ function ProjectImage({ image, projectId, loading }: { image: ProjectImageData[]
             {projectId != "" &&
             <div className=" ">
                 {image.map((img, i) => (
-                  <div key={i} className="flex flex-col justify-center text-center">
+                  <div key={i} className="flex justify-center text-center">
                     <Image
                       src={ img.image}
                       height={0}
