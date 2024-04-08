@@ -48,10 +48,12 @@ const content = [
     Mis funciones principales eran,
     negociar con proveedores de material sin procesar,
     verificar que el material procesado cumpliera con la calidad necesaria para su venta,
-    contactar con clientes interesados en el material procesado</div></ul>`
+    contactar con clientes interesados en el material procesado. 
+    Mantuve mi negocio por 10 años, 
+    tuve que desistir de continuar debido al incumplimiento por parte de algunos clientes, y el inpacto de la pandemia</div></ul>`
     
   },
-  {"name": "Educacion", 
+  {"name": "Educación", 
     "content": `
     <ul class='list-disc'><li class='font-semibold'>
     Tecnólogo en electrónica Universidad Francisco José De Caldas</li>
