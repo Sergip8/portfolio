@@ -216,27 +216,7 @@ const content = [
     
   
     `
-    // <li class='font-semibold'>Pagina para comparar precios de las cadenas de tiendas mas populares de Colombia</li>
-    // <div class='ms-3 p-2'>Es una pagina creada usando Angular con base de datos en MongoDb. Para el backend se utiliza el servicio de HTTP endpoins de Mongo Atlas, la base de
-    // datos se encuentra alojada en Mongo Atlas. El scrapper para conseguir la información de las tiendas esta hecho con python</div>
-    // <div class="flex gap-2">
-    // <div class='ms-3 p-2 text-base'><a class="hover:text-indigo-800 dark:hover:text-indigo-300" href="https://price-comparator.000webhostapp.com/" target="_blank">Pagina web</a></div>
-    // <div class='ms-3 p-2 text-base'><a class="hover:text-indigo-800 dark:hover:text-indigo-300" href="https://drive.google.com/uc?export=download&id=1gOS1NSyYA9FDjxjeCBNPjLF0OGDK8Tz0" target="_blank">Android app</a></div>
-    // </div>
-    // <li class='font-semibold'>pagina para la gestion de un consultorio medico</li>
-    // <div class='ms-3 p-2'>Es una pagina creada usando React con Backend Laravel, la base de datos esta implementada con Mysql</div>
-    // <div class="flex gap-2">
-    // <div class='ms-3 p-2 text-base'><a class="hover:text-indigo-800 dark:hover:text-indigo-300" href="https://github.com/Sergip8/consultorio_laravel-react" target="_blank">Repositorio Github</a></div>
-    // <div class='ms-3 p-2 text-base'><a class="hover:text-indigo-800 dark:hover:text-indigo-300" href="https://drive.google.com/file/d/1g1jYyU9HjG1B6KAAtiuJ7pz4FTy6BiXY/view?usp=drive_link" target="_blank">Manual</a></div>
-    
-    // </div>
-    // <li class='font-semibold'>Clon de Reddit</li>
-    // <div class='ms-3 p-2'>Es una pagina creada usando Angular con Backend Spring Boot y base de datos en Mongodb</div>
-    // <div class='ms-3 p-2 text-base'><a class="hover:text-indigo-800 dark:hover:text-indigo-300" href="https://github.com/Sergip8/spring-boot-reddit-clone" target="_blank">Repositorio Github</a></div>
-    // </div>
-    
-  },
-  
+  }, 
 ]
 
  export default async function Home() {
