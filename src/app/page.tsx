@@ -12,6 +12,8 @@ export interface ProjectData{
   title: string 
   description: string
   links: string
+  images: string[]
+  desktop: boolean
 }
 
 async function getProyects() {
@@ -225,7 +227,7 @@ const content = [
   return (
     <main className="xl:container mx-auto flex min-h-screen flex-col">
       <ToggleThemeBtn/>
-      <div className="md:flex  ">
+      <div className="">
       <div className="">
        <PresentationCard/>
       <Tab item={JSON.stringify(content)}/>
