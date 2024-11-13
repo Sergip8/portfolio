@@ -18,7 +18,7 @@ function Project({ project }: { project: string }) {
   const [data, setData] = useState<WithId<ProjectImageData>[]>([]);
   const [isHovered, setIsHovered] = useState(false);
   //const [isHoveredImg, setIsHoveredImg] = useState(false);
-  const [xtrans, setxtrans] = useState(120);
+  const [xtrans, setxtrans] = useState(110);
   const content: ProjectData = JSON.parse(project);
 
   const fetchData = async () => {

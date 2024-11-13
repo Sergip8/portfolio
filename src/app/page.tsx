@@ -52,7 +52,20 @@ const content = [
     verificar que el material procesado cumpliera con la calidad necesaria para su venta,
     contactar con clientes interesados en el material procesado. 
     Mantuve mi negocio por 10 años, 
-    tuve que desistir de continuar debido al incumplimiento por parte de algunos clientes, y el inpacto de la pandemia</div></ul>`
+    tuve que desistir de continuar debido al incumplimiento por parte de algunos clientes, y el inpacto de la pandemia</div>
+    <li class='font-semibold'>Bluetab, an IBM Company</li>
+
+    <div class='ms-3 p-2 '> 
+    Funciones:<br/>
+- Creación y configuración de jobs en Control-M para la automatización de procesos<br/>
+- Realización de pruebas de procesamientos de Spark con escala usando Jupiter<br/>
+- Creación de procesamientos ETL usando Spark con Scala<br/>
+- Desarrollo de documentación técnica tal como documento técnico, modelo de solución de datos, diagramas ETL de procesamiento entre otros<br/>
+- Validación de calidad de código scala<br/>
+- Despliegue de componentes hacia Bitbucket,<br/>
+- Creación y configuración de transferencias <br/>
+Logros:<br/>
+Desarrollé una herramienta en Python que analiza automáticamente el código en Scala para identificar y reportar malas prácticas comunes. El programa realiza una revisión exhaustiva para detectar elementos como: funciones sin utilizar o sin pruebas asociadas, variables sin usar, saltos de linea innecesarios, errores de configuración, entre otros</div></ul>`
     
   },
   {"name": "Educación", 
