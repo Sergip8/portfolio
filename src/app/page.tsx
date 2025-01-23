@@ -45,14 +45,18 @@ const content = [
     HFC con un analizador de espectro y detectar si el equipo tenia fallos, esto utilizando
     Visual Basic y java</div>
     <li class='font-semibold'> Trabajo como independiente con mi emprendimiento en el sector de plásticos</li>
-    <div class='ms-3 p-2 '> Trabaje fabricando y
-    vendiendo todo tipo de plásticos procesados en especial PVC.
-    Mis funciones principales eran,
-    negociar con proveedores de material sin procesar,
-    verificar que el material procesado cumpliera con la calidad necesaria para su venta,
-    contactar con clientes interesados en el material procesado. 
-    Mantuve mi negocio por 10 años, 
-    tuve que desistir de continuar debido al incumplimiento por parte de algunos clientes, y el inpacto de la pandemia</div>
+    <div class='ms-3 p-2 '> 
+   Funciones:<br/>
+- Negociar con proveedores de materia prima y clientes, <br/>
+- Gestionar los datos de proveedores, inventarios y clientes <br/>
+- Contactar y recabar datos de clientes como proveedores<br/>
+- Verificar que el producto final cumpliera con lo requerido por el cliente<br/>
+- Mantener actualizados los datos del negocio<br/>
+Logros:<br/>
+- Implementé un sistema básico de seguimiento de inventarios, clientes y proveedores, utilizando Excel y Python<br/>
+- Cree una interfaz web sencilla para la gestion de datos usando HTML CSS, y JavaScript<br/>
+</div>
+   
     <li class='font-semibold'>Bluetab, an IBM Company</li>
 
     <div class='ms-3 p-2 '> 
