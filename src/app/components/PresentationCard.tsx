@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 function PresentationCard() {
   return (
     <div className="flex items-center justify-center  p-6">
@@ -16,16 +17,13 @@ function PresentationCard() {
         />
       </div>
       
-      {/* Texto de presentación */}
-      <div className="flex-1 space-y-4 text-orange-900 dark:text-gray-200">
-        {/* Frase destacada */}
+      <div className="flex-1  text-orange-900 dark:text-gray-200">
         <h1 className="text-3xl md:text-4xl font-bold dark:text-white">
           &quot;Creando soluciones digitales con pasión y creatividad&quot;
         </h1>
         
-        {/* Resumen */}
-        <div className="space-y-2">
-          <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100">Hola, soy Sergio</h2>
+        <div className="my-6">
+          <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-gray-100">Hola, soy Sergio</h2>
           <p className="text-lg leading-relaxed dark:text-gray-300 text-gray-700">
             Desarrollador Full Stack con 2 años de experiencia creando aplicaciones web modernas. 
             Especializado en Angular, .NET y diseño UX. Me apasiona resolver problemas complejos 
@@ -33,10 +31,10 @@ function PresentationCard() {
           </p>
         </div>
         
-        {/* Botón opcional */}
-        <button className="mt-4 px-6 py-2 bg-orange-400 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg hover:bg-orange-500 transition-colors shadow dark:shadow-gray-800">
-          Conoce más
-        </button>
+        <Link href='files/SERGIO_ANDRES_GIRALDO_HV_gd.docx' 
+        className="!mt-4 px-6 py-2 bg-orange-400 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg hover:bg-orange-500 transition-colors shadow dark:shadow-gray-800">
+          Mi Hoja de Vida
+        </Link>
       </div>
     </div>
   </div>
