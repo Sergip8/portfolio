@@ -1,66 +1,45 @@
 import React from 'react'
-
+import Image from 'next/image';
 function PresentationCard() {
   return (
-   
-        <div
-  className="flex flex-col md:w-full md:flex-row ">
-  <div className=' text-[12px] h-full bg-slate-50 p-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700'>
-  <img
-    className="md:max-w-[200px] md:w-auto max-w-full w-full object-cover md:h-auto md:!rounded-none "
-    src="/foto-edit.png"
-    alt="" />
-    <div className='text-center'>
-  <p className='mt-4 uppercase'>
-    Sergio Andres Giraldo
-  </p>
-  <a href="https://github.com/Sergip8?tab=repositories " target="_blank">
-    <img className='inline mt-4' src="/icon-github.svg" alt="github" />
-
-  </a>
-  
-
+    <div className="flex items-center justify-center  p-6">
+    <div className="max-w-4xl w-full flex flex-col md:flex-row items-center gap-8">
+      {/* Imagen de perfil */}
+      <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-orange-200 dark:border-gray-700 shadow-lg dark:shadow-gray-800/50">
+        <Image
+          src="/yo_ed.png"
+          alt="Foto de perfil"
+          width={256}
+          height={256}
+          className="w-full h-full object-cover"
+          priority
+        />
+      </div>
+      
+      {/* Texto de presentación */}
+      <div className="flex-1 space-y-4 text-orange-900 dark:text-gray-200">
+        {/* Frase destacada */}
+        <h1 className="text-3xl md:text-4xl font-bold dark:text-white">
+          &quot;Creando soluciones digitales con pasión y creatividad&quot;
+        </h1>
+        
+        {/* Resumen */}
+        <div className="space-y-2">
+          <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100">Hola, soy Sergio</h2>
+          <p className="text-lg leading-relaxed dark:text-gray-300 text-gray-700">
+            Desarrollador Full Stack con 2 años de experiencia creando aplicaciones web modernas. 
+            Especializado en Angular, .NET y diseño UX. Me apasiona resolver problemas complejos 
+            y crear experiencias digitales memorables para los usuarios.
+          </p>
+        </div>
+        
+        {/* Botón opcional */}
+        <button className="mt-4 px-6 py-2 bg-orange-400 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg hover:bg-orange-500 transition-colors shadow dark:shadow-gray-800">
+          Conoce más
+        </button>
+      </div>
     </div>
   </div>
-  <div className="md:ms-9 flex flex-col justify-start bg-slate-50 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-    <h5
-      className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
-      Técnico Electrónico y Emprendedor en Plásticos | Especializado en Desarrollo de Software y Electrónica
-    </h5>
-    <div className=" ps-2 mb-4 font-sans text-sm text-neutral-600 dark:text-neutral-200">
-
-    <p className='pb-2'>
-Con más de una década de experiencia en el campo técnico y emprendimiento, he construido una trayectoria diversa. En mis inicios como trabajador comencé como Operario de Ensamble en Cidei, donde perfeccioné mis habilidades en la fabricación y montaje de componentes electrónicos.
-
-    </p>
-    <p className='pb-2'>
-Posteriormente, en International Cable Corp, desempeñé el papel clave de Técnico Electrónico y Líder de Equipo. Supervisé la reparación de equipos de red, desde routers y switches hasta nodos y amplificadores externos HFC. Destaco mi contribución al desarrollo de una aplicación en Visual Basic y Java, diseñada para analizar datos de mediciones de equipos HFC y detectar fallos, demostrando mi habilidad en la programación y resolución de problemas.
-
-    </p>
-<p className=''>
-Además, emprendí en el sector de plásticos, donde lideré un negocio independiente. Me encargué de negociar con proveedores de materiales, garantizando la calidad de los productos procesados, y estableciendo conexiones con clientes interesados. Esta experiencia fortaleció mis habilidades empresariales y mi capacidad para trabajar de manera autónoma.
-
-</p>
-    </div>
-<h5 className="mb-0 text-lg mss-0 font-medium text-neutral-800 dark:text-neutral-50">
-  Datos Personales
-</h5>
-<div className='ps-2  flex gap-11 text-sm font-sans  font-normal'>
-<div>
-  <p><span>Email:</span> sagp758@gmail.com</p>
-  <p><span>Fecha de nacimiento:</span> 20 de julio de 1986</p> 
- 
-</div>
-<div>
-  <p><span>Teléfono:</span> 3133057451</p>
-  <p><span>Dirección:</span> Kr 18B Bis N° 67A-94 Sur</p>
-  
-  </div>
-
-</div>
- 
-  </div>
-</div>
    
   )
 }

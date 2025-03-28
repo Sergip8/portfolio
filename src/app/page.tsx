@@ -6,6 +6,8 @@ import ProjectCard from "./components/ProjectCard";
 import { title } from "process";
 import clientPromise from "../libs/mongodb";
 import { ObjectId } from "mongodb";
+import LogoLinks from "./components/Logo-Links";
+import ContactFooter from "./components/Footer";
 
 export interface ProjectData{
   _id: ObjectId
@@ -14,6 +16,7 @@ export interface ProjectData{
   links: string
   images: string[]
   desktop: boolean
+  tech: string[]
 }
 
 async function getProyects() {
@@ -26,7 +29,7 @@ async function getProyects() {
               .find({})
               .sort({order:1})
               .toArray();
-            
+         
           return projects
   }
         
@@ -242,19 +245,24 @@ Desarrollé una herramienta en Python que analiza automáticamente el código en
   const projects = await getProyects() 
   
   return (
-    <main className="xl:container mx-auto flex min-h-screen flex-col">
+    <main className=" xl:container mx-auto flex min-h-screen flex-col">
+      <div className="flex">
+      <LogoLinks 
+       logo="/icons/sg.svg" // O un componente SVG
+       linkedinUrl="https://linkedin.com/in/sergio-andrés-giraldo-0906a754"
+       githubUrl="https://github.com/Sergip8?tab=repositories"
+      />
       <ToggleThemeBtn/>
-      <div className="">
-      <div className="">
+
+      </div>
+   
        <PresentationCard/>
       <Tab item={JSON.stringify(content)}/>
 
-      </div>
-      <div className="">
+
         <ProjectCard projects={projects}></ProjectCard>
 
-      </div>
-      </div>
+      <ContactFooter/>
 
     </main>
   );
