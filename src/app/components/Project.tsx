@@ -74,7 +74,7 @@ function Project({ project }: { project: string }) {
           <div className={currentProject.development_type === "WEB"? 'flex flex-col lg:flex-row gap-12': 'flex flex-col justify-center items-center gap-6' }>
             {/* Carrusel de imágenes (lado izquierdo) */}
             <div className={currentProject.development_type === "WEB"?"lg:w-1/2 ": "flex flex-row-reverse gap-3"}>
-              <div className={`relative h-80 md:h-96 rounded-xl overflow-hidden shadow-xl dark:shadow-gray-800/50 ${currentProject?.desktop ? "": "w-fit"} cursor-zoom-in`}>
+              <div className={`relative h-80 md:h-96 rounded-xl overflow-hidden shadow-xl dark:shadow-gray-800/50 ${currentProject?.desktop ? "w-96 md:w-[650px]": "w-fit"} cursor-zoom-in`}>
                 <img
                   src={currentProject?.images[activeImageIndex]}
                   alt={`Captura del proyecto ${currentProject?.title}`}
@@ -216,7 +216,7 @@ function Project({ project }: { project: string }) {
             <img
               src={currentProject?.images[activeImageIndex]}
               alt={`Captura ampliada del proyecto ${currentProject?.title}`}
-              className="max-w-[50vh] max-h-auto object-contain rounded-lg shadow-2xl"
+              className="max-w-[60vh] max-h-auto object-contain rounded-lg shadow-2xl"
               onClick={(e) => e.stopPropagation()}
             />
 
