@@ -54,6 +54,17 @@ function Project({ project }: { project: string }) {
     setIsZoomed(false);
   };
 
+  const projectNav = (direcction: "ant" | "sig") =>{
+    setActiveImageIndex(0)
+    if(direcction === "ant"){
+      setActiveProject((prev) => prev === 0 ? content.length - 1 : prev -1)
+    }
+    if(direcction === "sig"){
+      setActiveProject((prev) => prev === content.length - 1 ? 0 : prev + 1)
+    }
+
+  }
+
   return (
     <>
       <section className=" px-6">
@@ -148,18 +159,14 @@ function Project({ project }: { project: string }) {
 
                 <div className="flex gap-4">
                   <button 
-                    onClick={() => setActiveProject((prev) => 
-                      prev === 0 ? content.length - 1 : prev -1
-                    )}
+                    onClick={() => projectNav("ant")}
                     className="px-4 py-2 border border-orange-300 dark:border-gray-600 text-orange-800 dark:text-gray-300 rounded-lg hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
                   >
                     Anterior
                   </button>
                   
                   <button 
-                    onClick={() => setActiveProject((prev) => 
-                      prev === content.length - 1 ? 0 : prev + 1
-                    )}
+                    onClick={() => projectNav("sig")}
                     className="px-4 py-2 border border-orange-300 dark:border-gray-600 text-orange-800 dark:text-gray-300 rounded-lg hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
                   >
                     Siguiente
