@@ -5,18 +5,6 @@ import Image from "next/image";
 import { ObjectId } from "mongodb";
 import { ProjectImageData } from "./Project";
 
-
-
-// async function getProjectImage(projectId: string) {
-//   const client = await clientPromise;
-//   const db = client.db("portfolio");
-//   const image = await db
-//     .collection<ProjectImage>("sample_images")
-//     .find({ projectId: projectId })
-//     .toArray();
-//   return image;
-// }
-
 function ProjectImage({ image, projectId, loading }: { image: ProjectImageData[], projectId: string, loading: Boolean }) {
   //const images = await getProjectImage(id);
   return (

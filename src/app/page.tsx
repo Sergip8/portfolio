@@ -17,6 +17,7 @@ export interface ProjectData{
   images: string[]
   desktop: boolean
   tech: string[]
+  development_type: string
 }
 
 async function getProyects() {
