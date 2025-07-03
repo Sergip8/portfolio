@@ -30,8 +30,14 @@ async function getProyects() {
               .find({})
               .sort({order:1})
               .toArray();
-         
-          return projects
+    const filter = { _id: new ObjectId("6866ead0f04a367410d4fe1f") };
+    const incrementValue = 1;
+    const update = {
+      $inc: { count: incrementValue },
+      $set: { updatedAt: new Date() }
+    };
+    await db.collection("visit_count").updateOne(filter, update);
+        return projects
   }
         
      catch (e) {
